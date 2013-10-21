@@ -7,7 +7,7 @@ describe "Application 'QACounter'" do
     @app.delegate.status_menu.nil?.should == false
   end
 
-  it "has three menu items" do
-    @app.delegate.status_menu.itemArray.length.should == 3
+  it "has four menu items" do
+    @app.delegate.status_menu.itemArray.length.should == 4
   end
 end
